@@ -442,6 +442,224 @@ transition: all .4s ease;
     margin-bottom: 0.5rem;
   }
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .footer-container {
+    background: #0d0e23;
+    color: #ccc;
+    font-size: 0.9rem;
+    padding: 2rem 1rem;
+    border-top: 1px solid #1d1e30;
+  }
+  
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    align-items: center;
+  }
+  
+  .footer-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+  
+  .footer-logo-circle {
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+  }
+  
+  .footer-brand-name {
+    font-weight: bold;
+    color: white;
+  }
+  
+  .footer-social {
+    text-align: right;
+  }
+  
+  .footer-social-icons {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .footer-social-icons img {
+    width: 24px;
+    height: 24px;
+    background-color: #1e1f33;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .footer-links-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .footer-link-group h4 {
+    color: white;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .footer-link-group a {
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    margin-bottom: 0.3rem;
+    font-size: 0.9rem;
+  }
+  
+  .footer-link-group a:hover {
+    color: #5b61f5;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #1d1e30;
+    padding-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    font-size: 0.85rem;
+    color: #888;
+  }
+  
+  .footer-policy-links {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .footer-policy-links a {
+    color: #888;
+    text-decoration: none;
+  }
+  
+  .footer-policy-links a:hover {
+    color: #5b61f5;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+
+
+    header {
+        padding: 5px 10px;
+    }
+
+    .logo {
+        text-align: center;
+        font-size: 18px;
+        margin-right: 10px;
+    }
+
+    header ul li a{
+        font-size: 10px;
+        margin: 0 5px;
+    }
+
+    .header_btn{
+        font-size: 15px;
+        padding: 5px 10px;
+        height: auto;
+        width: auto;
+    }
+
+    .home_page {
+        flex-direction: column;
+        height: auto;
+    }
+
+  .home_text h1 {
+    font-size: 25px;
+}
+
+.home_number{
+    padding: 10px;
+margin-bottom: 50px;
+}
+
+.home_number div p{
+    font-size: 10px;
+}
+
+.home_number div h4{
+font-size: 20px;
+}
+
+.signup-container{
+    width: 350px;
+}
+
+.get_foffer_frm {
+    font-size: 30px;
+    margin-top: 80px;
+}
+
+.course-section {
+    margin: 2rem 10px;
+}
+
+.logo-slide {
+    width: 130px;
+}
+}
+
+
+  
+  /* Responsive footer layout */
+  @media (max-width: 600px) {
+    .footer-top {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .footer-social {
+      text-align: left;
+      margin-top: 1rem;
+    }
+  
+    .footer-bottom {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+
+
   /* ✅ Responsive */
   @media screen and (min-width: 768px) {
     .course-section,
