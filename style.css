@@ -592,7 +592,7 @@ transition: all .4s ease;
     }
 
     .header_btn{
-        font-size: 15px;
+        font-size: 12px;
         padding: 5px 10px;
         height: auto;
         width: auto;
@@ -601,11 +601,19 @@ transition: all .4s ease;
     .home_page {
         flex-direction: column;
         height: auto;
+        margin-top: 50px;
+        padding: 0 20px;
     }
 
   .home_text h1 {
     font-size: 25px;
 }
+
+.home_text button{
+font-size: 10px;
+    padding: 6px 20px;
+    margin-bottom: 0px;
+  }
 
 .home_number{
     padding: 10px;
@@ -621,7 +629,8 @@ font-size: 20px;
 }
 
 .signup-container{
-    width: 350px;
+    width: 300px;
+    background-color:  transparent;
 }
 
 .get_foffer_frm {
